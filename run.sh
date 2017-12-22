@@ -14,4 +14,4 @@
 # udacity/carnd-term1-starter-kit is the name of the container to run.
 
 
-docker run -it --rm -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit P1.ipynb
+docker run -it --rm -p 8888:8888 -v "`pwd`":/src udacity/carnd-term1-starter-kit P1.ipynb
